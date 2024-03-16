@@ -1,0 +1,84 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background: linear-gradient(to bottom right, rgb(179, 236, 255), rgb(153, 255, 153));
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+#back {
+  width: 85%;
+  z-index: -400;
+  margin-left: 5%;
+}
+#profile {
+  width: 30%;
+  margin-top: -20%;
+}
+#RH {
+  margin-left: 35%;
+  margin-top: -10%
+}
+.text {
+  width: 400px;
+  margin-left: 2.5%;
+  margin-top: 10%;
+}
+#story{
+  font-size: 70%;
+}
+table, th, td, tr{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td{
+  text-align: center;
+  vertical-align: middle;
+}
+tbody {
+  font-size: 75%;
+}
+thead {
+  font-size: 100%;
+}
+td, th {
+  width: 100px;
+  height: 74px;
+}
+.channel{
+  text-decoration: none;
+} 
+.stats{
+  width: 300px;
+  margin-left: 60%;
+  margin-top: -20%;
+}
+#end{
+  font-size: 144%
+}
+.footer{
+  width: 650px;
+  margin-left: 20%;
+  margin-top: 10%
+}
+a:link, a:active, a:visited{
+  text-decoration: none;
+  color: rgb(67, 76, 91);
+}
+a:hover{
+  text-decoration: none;
+  color: rgb(255, 119, 0);
+}
+.info{
+  margin-left: 1%;
+  margin-top: 1%;
+}
